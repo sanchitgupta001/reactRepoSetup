@@ -1,0 +1,31 @@
+{
+  "name": "reactRepoSetup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sanchitgupta001/reactRepoSetup.git",
+  "author": "sanchitgupta001 <sanchit.gupta@sprinklr.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "start": "node ./server.js",
+    "dev": "NODE_ENV=development yarn run start"
+  },
+  "dependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "css-loader": "^3.4.1",
+    "express": "^4.17.1",
+    "html-webpack-plugin": "^3.2.0",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-router": "^5.1.2",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-middleware": "^3.7.2"
+  }
+}
