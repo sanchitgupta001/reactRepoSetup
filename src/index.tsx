@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { Router, Route } from 'react-router';
 
 // components
-import LandingPage from './components/landingPage';
+import LandingPage from './landingPage';
 
 const Root = function() {
   return (

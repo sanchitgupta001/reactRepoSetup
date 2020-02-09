@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "jsx": "react",
+    "target": "es5",
+    "allowJs": false,
+    "noEmitOnError": true,
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "outDir": "./lib",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  },
+  "exclude": ["node_modules", "lib"]
+}
